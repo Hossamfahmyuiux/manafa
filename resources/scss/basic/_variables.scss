@@ -1,0 +1,139 @@
+/* || ===
+
+= IMKAN.com.sa
+= APP CUSTOM STYLE
+
+=== || */
+
+
+
+        // == COLORS == //
+
+            // brand colors ..
+            $c-brand:         #2b6fb7;
+            $c-lbrand:        #66aaea;
+            $c-brand2:        #6de299;
+            $c-brandhvr:      #14548e;
+            // standerd colors ..
+            $c-black:      #131927;
+            $c-dgray:      #141b2b;
+            $c-mgray:      #767d8c;
+            $c-gray:       #b2b6bf;
+            $c-lgray:      #e6eaf2;
+            $c-ofwhite:    #fafcff;
+            $c-border:     #f2f4f5;
+            $c-lwhite:     #fafbfd;
+            $c-white:      #fff;
+
+
+            // status colors ..
+            $c-green:      #6de299;
+            $c-orange:     #ffab00;
+            $c-red:        #ef2d34;
+            $c-yellow:     #ffe610;
+            $c-blue:       #009cff;
+            $c-purple:     #d040ff;
+
+            // social colors ..
+            $c-facebook:   #3b5998;
+            $c-twitter:    #55acee;
+            $c-behance:    #1769ff;
+            $c-google:     #dd4b39;
+            $c-linked:     #007bb5;
+            $c-dribbble:   #ea4c89;
+            $c-instegram:  #D32557;
+            $c-whatsapp:   #4dc247;
+
+
+
+
+
+            // Overlays ..
+            $c-overlay-black: rgba(20, 22, 25, 0.12);
+            $c-overlay-white: rgba(255, 255, 255, 0.81);
+            $c-overlay-brand: rgba(195, 32, 63, 0.85);
+
+
+            // gradients ..
+            $c-gradient-main: linear-gradient( -44deg, rgb(24,106,158) 0%, rgb(37,124,179) 100%);
+
+
+        // == WHITESPACE == //
+        $sm-whitespace : 15px;
+        $md-whitespace : $sm-whitespace*2;
+        $lr-whitespace : $md-whitespace*2;
+        $xl-whitespace : $lr-whitespace*2;
+
+                // inner whitespace ..
+                $sm-padding    : 5px;
+                $md-padding    : $sm-padding*1.5;
+                $lr-padding    : $md-padding*1.5;
+
+                        // other vals ..
+                        $border        : 1px;
+                        $base-height   : 10px;
+                        $base-group    : $base-height*6;
+
+                          // border radius ..
+                          $default-radius: 250px;
+                          $box-radius: 12px;
+                          $default-radius: 5px;
+
+
+
+            // == preak points == //
+            $phone:	768px;
+            $tablet: 992px;
+            $desktop: 1200px;
+
+
+        // == SHADOW == //
+        $l-shadow:    0px 0px 62px 0px rgba(35, 39, 48, 0.05);
+        $d-shadow:     0px 8px 29px 0 rgba(36, 43, 49, 0.10);
+        $soft-shadow:  -2px 2px 20px 0 rgba(0, 0, 0, 0.05);
+
+
+        // == FONTS == //
+
+            // small size ..
+            $xs-fontsize : 10px;
+            $xs-fontsize : 12px;
+            $sm-fontsize : 14px;
+            $xm-fontsize : 18px;
+            $md-fontsize : 20px;
+            $lr-fontsize : 24px;
+            $xl-fontsize : 32px;
+
+            // medium size ..
+            $md-sm-fontsize : 16px;
+            $md-md-fontsize : 18px;
+            $md-lr-fontsize : 26px;
+            $md-xl-fontsize : 32px;
+
+            // large size ..
+            $lr-xxs-fontsize : 12px ;
+            $lr-xs-fontsize : 14px;
+            $lr-sm-fontsize : 15px;
+            $lr-xm-fontsize : 20px;
+            $lr-md-fontsize : 23px;
+            $lr-lr-fontsize : 30px;
+            $lr-xl-fontsize : 44px;
+
+            // Icons Size ..
+            $sm-iconsize : 8px;
+            $md-iconsize : 14px;
+            $lr-iconsize : 16px;
+
+            // font family ..
+            $normal-font:       'Helvetica', sans-serif;
+            $second-font:       'Helvetica', sans-serif;
+            $md-font:           'Helvetica', sans-serif;
+            $en-font:           'Gotham';
+            $icon-font-family:  'icons';
+
+
+
+
+
+
+/* any var - that we gonna use in 2 cases or more. should be placed here */

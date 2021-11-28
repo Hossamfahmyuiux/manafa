@@ -1,0 +1,127 @@
+/*
+
+  || === >
+    = IMKAN ENGLISH FILE
+    = Imkan.com.sa
+  || === >
+
+*/
+body {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Gotham' !important; }
+  body * {
+    font-family: 'Gotham' !important; }
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left; }
+
+.section.order-investment article footer, .bx-left {
+  float: right; }
+
+.bx-right {
+  float: left; }
+
+.txt-right {
+  text-align: left; }
+
+.txt-left {
+  text-align: right; }
+
+.more i {
+  float: right !important;
+  margin-right: 0px !important;
+  margin-left: 15px !important;
+  transform: rotate(180deg); }
+.more.right-icon {
+  float: left !important;
+  margin-right: 15px !important;
+  margin-left: 0px !important;
+  transform: rotate(180deg); }
+
+#top-page .logo {
+  float: left; }
+
+#top-page .main-nav li:before {
+  left: 8px;
+  right: auto; }
+
+#top-page .main-nav {
+  float: right; }
+
+@media (min-width: 992px) {
+  .section.project .icon-bg:before {
+    left: -90px;
+    right: auto; } }
+
+.tabs-list li a {
+  margin: 0 5px; }
+  @media (min-width: 992px) {
+    .tabs-list li a {
+      margin: 0 15px; } }
+
+.tabs-list {
+  float: right; }
+
+.projects-cards article header {
+  right: auto;
+  left: 30px; }
+
+#top-page ul li {
+  float: left; }
+
+#bottomPage .logo {
+  float: left;
+  margin-left: 0;
+  margin-right: 15px; }
+
+@media screen and (min-width: 64em) {
+  #top-page ul {
+    margin-right: 0px;
+    margin-left: 30px; }
+
+  .board-members article .popup .content .bx-info .board-member-info {
+    padding-right: 0;
+    padding-left: 30px; } }
+#top-page ul li a {
+  margin-left: 0;
+  margin-right: 27px;
+  float: left; }
+
+#top-page a#menubtm {
+  float: right; }
+
+#top-page .logo {
+  background: url(../imgs/logo-en-header.png) no-repeat;
+  height: 61px!importnat;
+  width: 87px!importnat;
+  background-size: 100%; }
+
+.pace::after {
+  background: url(../imgs/logo-en.png); }
+
+.board-members article .popup .content .bx-info .close {
+  float: right;
+  direction: rtl;
+  right: 30px;
+  left: auto; }
+
+.board-members article .popup .content .bx-info .profile-img {
+  float: left; }
+
+#bottomPage .logo {
+  background: url(../imgs/logo-footer-en.png) no-repeat; }
+
+.radio-buttons label {
+  float: left;
+  margin: 17px 10px 0 0; }
+
+.select-bg i {
+  right: 45px;
+  left: auto; }
+
+#top-page .menu-toggle {
+  float: right; }
+
+/*# sourceMappingURL=ltr.css.map */

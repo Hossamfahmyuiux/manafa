@@ -1,0 +1,34 @@
+/* || ===
+
+= IMKAN.com.sa
+= FOOTER
+
+=== || */
+#bottomPage{
+  background: #ecf5fd;
+  margin-top: $md-whitespace*3;
+  padding: $md-whitespace 0;
+  .logo{
+    background: url(../imgs/footer-logo.png) no-repeat;
+    background-size: contain;
+    @media screen and #{breakpoint(large)}{
+      width: 95px;
+      height:59px;
+    }
+    width: 65px;
+    height: 39px;
+    display: block;
+    float: right;
+    margin-left: $sm-whitespace;
+  }
+  p{
+    color: #4779a7;
+  }
+}
+
+
+#bottomPage .logo {
+    background: url(../imgs/logo-footer-en.png) no-repeat;
+    background-size: 77%!important;
+}
+

@@ -1,0 +1,102 @@
+/* || ===
+
+= IMKAN.com.sa
+= SECTIONS
+
+=== || */
+
+#top-section {
+    position: relative;
+    .curveTop {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+}
+
+#header-boxs {
+    margin-top: $lr-whitespace;
+    .box {
+        article {
+            background-color: $c-white;
+            max-width: 390px;
+            min-width: 256px;
+            padding: 30px;
+            box-shadow: $l-shadow;
+            @media screen and (max-width: $tablet) {
+                float: none;
+                margin: $sm-whitespace 0;
+            }
+            i {
+                color: $c-brand;
+                header {}
+            }
+        }
+    }
+}
+
+#about-section {
+    .box {
+        article {
+            background-color: $c-border;
+            max-width: 390px;
+            min-width: 256px;
+            padding: $md-whitespace;
+            cursor: pointer;
+            margin-top: 0;
+            @include transition;
+            &:hover {
+                margin-top: -15px;
+                box-shadow: $l-shadow;
+            }
+            i {
+                color: $c-brand;
+                header {}
+            }
+
+        }
+        .according {
+            background-color: $c-border;
+            max-width: 390px;
+            min-width: 256px;
+            padding: 0 $sm-whitespace $sm-whitespace $sm-whitespace;
+            cursor: pointer;
+            margin-top: 0;
+            display: none;
+            p {
+                border-top: 1px solid $c-white;
+                padding-top: $sm-whitespace;
+
+            }
+        }
+        @media screen and (max-width:$tablet) {
+            margin: $sm-whitespace 0;
+        }
+    }
+    .active > .according {
+        display: block;
+    }
+}
+
+#list {
+    ol {
+        li {
+            margin: $sm-whitespace - 5px 0;
+        }
+    }
+}
+
+#top-page .en-logo {
+    height: 61px!important;
+    width: 87px!important;
+}
+.business-bg
+{
+    background: #f7f8fc url(../imgs/businessBg.jpg) no-repeat!important;
+    background-size: cover!important;
+        background-position: center!important;
+}
